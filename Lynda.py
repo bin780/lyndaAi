@@ -87,10 +87,11 @@ class Lynda():
 
     def lyndaResponse(self, audio):
         "speaks audio passed as argument"
+        eng = pyttsx3.init()
         print(audio)
         if self.gui != None:
             self.gui.Message1.configure(text=audio)
-        eng = pyttsx3.init()
+
         # GUI.changeText(audio)
         # print(audio.splitlines())
         for line in range(0, 1):
@@ -231,18 +232,7 @@ class Lynda():
             mysong = self.myCommand()
         print(os.listdir(path))
         if mysong + '.mp4' not in os.listdir(path):
-            # flag = 0
-            # url = "https://www.youtube.com/results?search_query=" + mysong.replace(' ', '+')
-            # response = urllib.request.urlopen(url)
-            # html = response.read()
-            # soup1 = soup(html,"lxml")
-            # url_list = []
-            # for vid in soup1.findAll(attrs={'class':'yt-uix-tile-link'}):
-            #     #if ('https://www.youtube.com' + vid['href']).startswith("https://www.youtube.com/watch?v="):
-            #     flag = 1
-            #     final_url = 'https://www.youtube.com' + vid['href']
-            #     url_list.append(final_url)
-            #     print("here")
+
             query_string = urllib.parse.urlencode({"search_query": mysong})
             html_content = urllib.request.urlopen("http://www.youtube.com/results?" + query_string)
             search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
@@ -272,11 +262,12 @@ class Lynda():
             media = vlc_instance.media_new(mysong)
             player.set_media(media)
             player.play()
-            time.sleep(1.5)
-            # player.stop()
-            next = self.myCommand()
+            next=mycommand()
             if "stop" in next.split():
                 player.stop()
+            player.stop()
+
+
 
     def getSearch(self,entitites):
         # reg_ex = re.search('tell me about (.*)', command)
