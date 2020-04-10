@@ -1,0 +1,1564 @@
+{
+  "average_metrics": {
+    "intent": {
+      "f1": 0.9310654882847395,
+      "precision": 0.975912975912976,
+      "recall": 0.898026973026973
+    },
+    "slot": {
+      "f1": 0.5950492414160233,
+      "precision": 0.6524743230625585,
+      "recall": 0.5685574229691878
+    }
+  },
+  "confusion_matrix": {
+    "intents": [
+      "email",
+      "getGreeting",
+      "getNews",
+      "getSearch",
+      "getTime",
+      "getWeather",
+      "helpme",
+      "launchApp",
+      "openWeb",
+      "playMusic",
+      "shutdown",
+      "null"
+    ],
+    "matrix": [
+      [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "metrics": {
+    "email": {
+      "exact_parsings": 8,
+      "intent": {
+        "f1": 0.9411764705882353,
+        "false_negative": 0,
+        "false_positive": 1,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "true_positive": 8
+      },
+      "intent_utterances": 8,
+      "slots": {
+        "res": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 7
+        },
+        "sub": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 3
+        }
+      }
+    },
+    "getGreeting": {
+      "exact_parsings": 6,
+      "intent": {
+        "f1": 0.8,
+        "false_negative": 3,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "true_positive": 6
+      },
+      "intent_utterances": 9,
+      "slots": {}
+    },
+    "getNews": {
+      "exact_parsings": 4,
+      "intent": {
+        "f1": 0.923076923076923,
+        "false_negative": 1,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "true_positive": 6
+      },
+      "intent_utterances": 7,
+      "slots": {
+        "thing": {
+          "f1": 0.7692307692307692,
+          "false_negative": 1,
+          "false_positive": 2,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "true_positive": 5
+        }
+      }
+    },
+    "getSearch": {
+      "exact_parsings": 6,
+      "intent": {
+        "f1": 0.9333333333333333,
+        "false_negative": 1,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.875,
+        "true_positive": 7
+      },
+      "intent_utterances": 8,
+      "slots": {
+        "query": {
+          "f1": 0.923076923076923,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "true_positive": 6
+        }
+      }
+    },
+    "getTime": {
+      "exact_parsings": 2,
+      "intent": {
+        "f1": 0.888888888888889,
+        "false_negative": 1,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.8,
+        "true_positive": 4
+      },
+      "intent_utterances": 5,
+      "slots": {
+        "time": {
+          "f1": 0.5,
+          "false_negative": 2,
+          "false_positive": 2,
+          "precision": 0.5,
+          "recall": 0.5,
+          "true_positive": 2
+        }
+      }
+    },
+    "getWeather": {
+      "exact_parsings": 6,
+      "intent": {
+        "f1": 0.8461538461538461,
+        "false_negative": 2,
+        "false_positive": 2,
+        "precision": 0.8461538461538461,
+        "recall": 0.8461538461538461,
+        "true_positive": 11
+      },
+      "intent_utterances": 13,
+      "slots": {
+        "city": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 6
+        },
+        "date1": {
+          "f1": 0.0,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "true_positive": 0
+        },
+        "geo_poi": {
+          "f1": 0.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "true_positive": 0
+        },
+        "state": {
+          "f1": 0.6666666666666666,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "true_positive": 1
+        },
+        "temp_description": {
+          "f1": 0.0,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "true_positive": 0
+        },
+        "time": {
+          "f1": 0.6666666666666666,
+          "false_negative": 2,
+          "false_positive": 2,
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "true_positive": 4
+        },
+        "timePeriod": {
+          "f1": 0.0,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "true_positive": 0
+        }
+      }
+    },
+    "helpme": {
+      "exact_parsings": 7,
+      "intent": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 7
+      },
+      "intent_utterances": 7,
+      "slots": {}
+    },
+    "launchApp": {
+      "exact_parsings": 5,
+      "intent": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 6
+      },
+      "intent_utterances": 6,
+      "slots": {
+        "app": {
+          "f1": 0.8333333333333334,
+          "false_negative": 1,
+          "false_positive": 1,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "true_positive": 5
+        }
+      }
+    },
+    "null": {
+      "exact_parsings": 0,
+      "intent": {
+        "f1": 0.0,
+        "false_negative": 0,
+        "false_positive": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      "intent_utterances": 0,
+      "slots": {}
+    },
+    "openWeb": {
+      "exact_parsings": 3,
+      "intent": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 5
+      },
+      "intent_utterances": 5,
+      "slots": {
+        "name": {
+          "f1": 0.6,
+          "false_negative": 2,
+          "false_positive": 2,
+          "precision": 0.6,
+          "recall": 0.6,
+          "true_positive": 3
+        }
+      }
+    },
+    "playMusic": {
+      "exact_parsings": 4,
+      "intent": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 8
+      },
+      "intent_utterances": 8,
+      "slots": {
+        "album": {
+          "f1": 0.6666666666666666,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "true_positive": 1
+        },
+        "artist": {
+          "f1": 0.6666666666666666,
+          "false_negative": 1,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "true_positive": 1
+        },
+        "name": {
+          "f1": 0.823529411764706,
+          "false_negative": 1,
+          "false_positive": 2,
+          "precision": 0.7777777777777778,
+          "recall": 0.875,
+          "true_positive": 7
+        }
+      }
+    },
+    "shutdown": {
+      "exact_parsings": 5,
+      "intent": {
+        "f1": 0.9090909090909091,
+        "false_negative": 1,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "true_positive": 5
+      },
+      "intent_utterances": 6,
+      "slots": {}
+    }
+  },
+  "parsing_errors": [
+    {
+      "expected_output": {
+        "input": "find australia for me",
+        "intent": {
+          "intentName": "getSearch",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "queryName",
+            "range": {
+              "end": 14,
+              "start": 5
+            },
+            "rawValue": "australia",
+            "slotName": "query"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "find australia for me",
+        "intent": {
+          "intentName": "getSearch",
+          "probability": 0.6492447604220647
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "play dhemee dheeme by halo",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 18,
+              "start": 5
+            },
+            "rawValue": "dhemee dheeme",
+            "slotName": "name"
+          },
+          {
+            "entity": "snips/musicArtist",
+            "range": {
+              "end": 26,
+              "start": 22
+            },
+            "rawValue": "halo",
+            "slotName": "artist"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "play dhemee dheeme by halo",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 0.858569814184258
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 18,
+              "start": 5
+            },
+            "rawValue": "dhemee dheeme",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "dhemee dheeme"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what is happening around",
+        "intent": {
+          "intentName": "getNews",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "what is happening around",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.30509869625719144
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what in one hour is it?",
+        "intent": {
+          "intentName": "getTime",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "snips/time",
+            "range": {
+              "end": 16,
+              "start": 5
+            },
+            "rawValue": "in one hour",
+            "slotName": "time"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what in one hour is it?",
+        "intent": {
+          "intentName": "getTime",
+          "probability": 0.4139677407644228
+        },
+        "slots": [
+          {
+            "entity": "snips/time",
+            "range": {
+              "end": 16,
+              "start": 8
+            },
+            "rawValue": "one hour",
+            "slotName": "time",
+            "value": {
+              "grain": "Hour",
+              "kind": "InstantTime",
+              "precision": "Exact",
+              "value": "2020-04-08 13:00:00 +05:30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what is the weather in city of lights on october 1st at 10am from at 8 a.m.",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "location",
+            "range": {
+              "end": 37,
+              "start": 23
+            },
+            "rawValue": "city of lights",
+            "slotName": "city"
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 60,
+              "start": 38
+            },
+            "rawValue": "on october 1st at 10am",
+            "slotName": "time"
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 75,
+              "start": 66
+            },
+            "rawValue": "at 8 a.m.",
+            "slotName": "time"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what is the weather in city of lights on october 1st at 10am from at 8 a.m.",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.44735961814110653
+        },
+        "slots": [
+          {
+            "entity": "location",
+            "range": {
+              "end": 37,
+              "start": 23
+            },
+            "rawValue": "city of lights",
+            "slotName": "city",
+            "value": {
+              "kind": "Custom",
+              "value": "paris"
+            }
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 60,
+              "start": 38
+            },
+            "rawValue": "on october 1st at 10am",
+            "slotName": "time",
+            "value": {
+              "grain": "Hour",
+              "kind": "InstantTime",
+              "precision": "Exact",
+              "value": "2020-10-01 10:00:00 +05:30"
+            }
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 74,
+              "start": 66
+            },
+            "rawValue": "at 8 a.m",
+            "slotName": "time",
+            "value": {
+              "grain": "Hour",
+              "kind": "InstantTime",
+              "precision": "Exact",
+              "value": "2020-04-09 08:00:00 +05:30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what is the weather in kansas banglore at in 1 hour",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "location",
+            "range": {
+              "end": 29,
+              "start": 23
+            },
+            "rawValue": "kansas",
+            "slotName": "city"
+          },
+          {
+            "entity": "location",
+            "range": {
+              "end": 38,
+              "start": 30
+            },
+            "rawValue": "banglore",
+            "slotName": "state"
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 51,
+              "start": 42
+            },
+            "rawValue": "in 1 hour",
+            "slotName": "time"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what is the weather in kansas banglore at in 1 hour",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.5957419078735319
+        },
+        "slots": [
+          {
+            "entity": "location",
+            "range": {
+              "end": 29,
+              "start": 23
+            },
+            "rawValue": "kansas",
+            "slotName": "city",
+            "value": {
+              "kind": "Custom",
+              "value": "kansas"
+            }
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 51,
+              "start": 30
+            },
+            "rawValue": "banglore at in 1 hour",
+            "slotName": "time",
+            "value": {
+              "grain": "Minute",
+              "kind": "InstantTime",
+              "precision": "Exact",
+              "value": "2020-04-08 10:27:00 +05:30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "is facebook webpage up if yes then open it",
+        "intent": {
+          "intentName": "openWeb",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "pageName",
+            "range": {
+              "end": 19,
+              "start": 3
+            },
+            "rawValue": "facebook webpage",
+            "slotName": "name"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "is facebook webpage up if yes then open it",
+        "intent": {
+          "intentName": "openWeb",
+          "probability": 0.4649120896608903
+        },
+        "slots": [
+          {
+            "entity": "pageName",
+            "range": {
+              "end": 11,
+              "start": 3
+            },
+            "rawValue": "facebook",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "facebook"
+            }
+          },
+          {
+            "entity": "pageName",
+            "range": {
+              "end": 42,
+              "start": 40
+            },
+            "rawValue": "it",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "it"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "shutdown",
+        "intent": {
+          "intentName": "shutdown",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "shutdown",
+        "intent": {
+          "intentName": null,
+          "probability": 0.3340429920949331
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "namsate",
+        "intent": {
+          "intentName": "getGreeting",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "namsate",
+        "intent": {
+          "intentName": null,
+          "probability": 0.30674193380737713
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what is todays headline story?",
+        "intent": {
+          "intentName": "getNews",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "Thing",
+            "range": {
+              "end": 23,
+              "start": 15
+            },
+            "rawValue": "headline",
+            "slotName": "thing"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what is todays headline story?",
+        "intent": {
+          "intentName": "getNews",
+          "probability": 0.8875980503675638
+        },
+        "slots": [
+          {
+            "entity": "Thing",
+            "range": {
+              "end": 29,
+              "start": 24
+            },
+            "rawValue": "story",
+            "slotName": "thing",
+            "value": {
+              "kind": "Custom",
+              "value": "story"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what's is today's weather",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "snips/Date",
+            "range": {
+              "end": 17,
+              "start": 10
+            },
+            "rawValue": "today's",
+            "slotName": "date1"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what's is today's weather",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.49389962349209965
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what is the weather until dinner from 4:30 pm",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "snips/timePeriod",
+            "range": {
+              "end": 32,
+              "start": 20
+            },
+            "rawValue": "until dinner",
+            "slotName": "timePeriod"
+          },
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 45,
+              "start": 38
+            },
+            "rawValue": "4:30 pm",
+            "slotName": "time"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what is the weather until dinner from 4:30 pm",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.5214101574963096
+        },
+        "slots": [
+          {
+            "entity": "snips/datetime",
+            "range": {
+              "end": 45,
+              "start": 38
+            },
+            "rawValue": "4:30 pm",
+            "slotName": "time",
+            "value": {
+              "grain": "Minute",
+              "kind": "InstantTime",
+              "precision": "Exact",
+              "value": "2020-04-08 16:30:00 +05:30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "launch chrome for me ,will you",
+        "intent": {
+          "intentName": "launchApp",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "appName",
+            "range": {
+              "end": 13,
+              "start": 7
+            },
+            "rawValue": "chrome",
+            "slotName": "app"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "launch chrome for me ,will you",
+        "intent": {
+          "intentName": "launchApp",
+          "probability": 0.34537874413278813
+        },
+        "slots": [
+          {
+            "entity": "appName",
+            "range": {
+              "end": 30,
+              "start": 27
+            },
+            "rawValue": "you",
+            "slotName": "app",
+            "value": {
+              "kind": "Custom",
+              "value": "you"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "sing maketh by Discovery",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 11,
+              "start": 5
+            },
+            "rawValue": "maketh",
+            "slotName": "name"
+          },
+          {
+            "entity": "snips/musicAlbum",
+            "range": {
+              "end": 24,
+              "start": 15
+            },
+            "rawValue": "Discovery",
+            "slotName": "album"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "sing maketh by Discovery",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 0.7116857903978603
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 11,
+              "start": 5
+            },
+            "rawValue": "maketh",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "maketh"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "howdy",
+        "intent": {
+          "intentName": "getGreeting",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "howdy",
+        "intent": {
+          "intentName": null,
+          "probability": 0.3414819195994527
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "find something",
+        "intent": {
+          "intentName": "getSearch",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "find something",
+        "intent": {
+          "intentName": null,
+          "probability": 0.3068729887378998
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "may i know the at 8 a.m.",
+        "intent": {
+          "intentName": "getTime",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "snips/time",
+            "range": {
+              "end": 24,
+              "start": 15
+            },
+            "rawValue": "at 8 a.m.",
+            "slotName": "time"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "may i know the at 8 a.m.",
+        "intent": {
+          "intentName": null,
+          "probability": 0.3474697362486307
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "should i carry an umberalla",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "should i carry an umberalla",
+        "intent": {
+          "intentName": "email",
+          "probability": 0.32791737032810203
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "should i go outside",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "current_location",
+            "range": {
+              "end": 19,
+              "start": 12
+            },
+            "rawValue": "outside",
+            "slotName": "geo_poi"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "should i go outside",
+        "intent": {
+          "intentName": null,
+          "probability": 0.3028250625805577
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "go to twitter webpage",
+        "intent": {
+          "intentName": "openWeb",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "pageName",
+            "range": {
+              "end": 13,
+              "start": 6
+            },
+            "rawValue": "twitter",
+            "slotName": "name"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "go to twitter webpage",
+        "intent": {
+          "intentName": "openWeb",
+          "probability": 0.4817684915187846
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "play the music dheeme dheeme by Daft Punk",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 28,
+              "start": 15
+            },
+            "rawValue": "dheeme dheeme",
+            "slotName": "name"
+          },
+          {
+            "entity": "snips/musicArtist",
+            "range": {
+              "end": 41,
+              "start": 32
+            },
+            "rawValue": "Daft Punk",
+            "slotName": "artist"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "play the music dheeme dheeme by Daft Punk",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 0.6364555699134465
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 8,
+              "start": 5
+            },
+            "rawValue": "the",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "the"
+            }
+          },
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 28,
+              "start": 15
+            },
+            "rawValue": "dheeme dheeme",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "dheeme dheeme"
+            }
+          },
+          {
+            "entity": "snips/musicArtist",
+            "range": {
+              "end": 41,
+              "start": 32
+            },
+            "rawValue": "Daft Punk",
+            "slotName": "artist",
+            "value": {
+              "kind": "MusicArtist",
+              "value": "Daft Punk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what's up",
+        "intent": {
+          "intentName": "getGreeting",
+          "probability": 1.0
+        },
+        "slots": []
+      },
+      "nlu_output": {
+        "input": "what's up",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.2958084883207691
+        },
+        "slots": []
+      }
+    },
+    {
+      "expected_output": {
+        "input": "can I get the headline?",
+        "intent": {
+          "intentName": "getNews",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "Thing",
+            "range": {
+              "end": 22,
+              "start": 14
+            },
+            "rawValue": "headline",
+            "slotName": "thing"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "can I get the headline?",
+        "intent": {
+          "intentName": "getNews",
+          "probability": 0.5937344022354698
+        },
+        "slots": [
+          {
+            "entity": "Thing",
+            "range": {
+              "end": 5,
+              "start": 4
+            },
+            "rawValue": "I",
+            "slotName": "thing",
+            "value": {
+              "kind": "Custom",
+              "value": "I"
+            }
+          },
+          {
+            "entity": "Thing",
+            "range": {
+              "end": 22,
+              "start": 14
+            },
+            "rawValue": "headline",
+            "slotName": "thing",
+            "value": {
+              "kind": "Custom",
+              "value": "headline"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "what's the now?",
+        "intent": {
+          "intentName": "getTime",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "snips/time",
+            "range": {
+              "end": 14,
+              "start": 11
+            },
+            "rawValue": "now",
+            "slotName": "time"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "what's the now?",
+        "intent": {
+          "intentName": "getTime",
+          "probability": 0.4826913285598203
+        },
+        "slots": [
+          {
+            "entity": "snips/time",
+            "range": {
+              "end": 15,
+              "start": 11
+            },
+            "rawValue": "now?",
+            "slotName": "time",
+            "value": {
+              "grain": "Second",
+              "kind": "InstantTime",
+              "precision": "Exact",
+              "value": "2020-04-08 09:28:59.113302500 +05:30"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "is it sunny in lucknow",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "temperature",
+            "range": {
+              "end": 11,
+              "start": 6
+            },
+            "rawValue": "sunny",
+            "slotName": "temp_description"
+          },
+          {
+            "entity": "location",
+            "range": {
+              "end": 22,
+              "start": 15
+            },
+            "rawValue": "lucknow",
+            "slotName": "city"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "is it sunny in lucknow",
+        "intent": {
+          "intentName": "getWeather",
+          "probability": 0.3465490898451472
+        },
+        "slots": [
+          {
+            "entity": "location",
+            "range": {
+              "end": 22,
+              "start": 15
+            },
+            "rawValue": "lucknow",
+            "slotName": "city",
+            "value": {
+              "kind": "Custom",
+              "value": "lucknow"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expected_output": {
+        "input": "play odani in Discovery",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 1.0
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 10,
+              "start": 5
+            },
+            "rawValue": "odani",
+            "slotName": "name"
+          },
+          {
+            "entity": "snips/musicAlbum",
+            "range": {
+              "end": 23,
+              "start": 14
+            },
+            "rawValue": "Discovery",
+            "slotName": "album"
+          }
+        ]
+      },
+      "nlu_output": {
+        "input": "play odani in Discovery",
+        "intent": {
+          "intentName": "playMusic",
+          "probability": 0.579626299742719
+        },
+        "slots": [
+          {
+            "entity": "musicTrack",
+            "range": {
+              "end": 13,
+              "start": 5
+            },
+            "rawValue": "odani in",
+            "slotName": "name",
+            "value": {
+              "kind": "Custom",
+              "value": "odani in"
+            }
+          },
+          {
+            "entity": "snips/musicAlbum",
+            "range": {
+              "end": 23,
+              "start": 14
+            },
+            "rawValue": "Discovery",
+            "slotName": "album",
+            "value": {
+              "kind": "MusicAlbum",
+              "value": "Discovery"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

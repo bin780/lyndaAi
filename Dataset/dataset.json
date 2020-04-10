@@ -1,0 +1,1451 @@
+{
+  "entities": {
+    "Thing": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "news"
+        },
+        {
+          "synonyms": [
+            "headlines"
+          ],
+          "value": "headline"
+        },
+        {
+          "synonyms": [],
+          "value": "story"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "appName": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "notepad"
+        },
+        {
+          "synonyms": [],
+          "value": "mozilla"
+        },
+        {
+          "synonyms": [],
+          "value": "opera"
+        },
+        {
+          "synonyms": [],
+          "value": "chrome"
+        },
+        {
+          "synonyms": [],
+          "value": "browser"
+        },
+        {
+          "synonyms": [],
+          "value": "wordpad"
+        },
+        {
+          "synonyms": [],
+          "value": "spotify"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "current_location": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "outside"
+        },
+        {
+          "synonyms": [],
+          "value": "here"
+        },
+        {
+          "synonyms": [],
+          "value": "there"
+        },
+        {
+          "synonyms": [],
+          "value": "nearby"
+        },
+        {
+          "synonyms": [],
+          "value": "inside"
+        },
+        {
+          "synonyms": [],
+          "value": "my house"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "location": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "london"
+        },
+        {
+          "synonyms": [
+            "big apple"
+          ],
+          "value": "new york"
+        },
+        {
+          "synonyms": [
+            "city of lights"
+          ],
+          "value": "paris"
+        },
+        {
+          "synonyms": [],
+          "value": "kansas"
+        },
+        {
+          "synonyms": [],
+          "value": "banglore"
+        },
+        {
+          "synonyms": [],
+          "value": "India"
+        },
+        {
+          "synonyms": [
+            "America"
+          ],
+          "value": "USA"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "musicTrack": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "odani"
+        },
+        {
+          "synonyms": [],
+          "value": "lamba lamba chul"
+        },
+        {
+          "synonyms": [],
+          "value": "kar gyi chul"
+        },
+        {
+          "synonyms": [],
+          "value": "maketh"
+        },
+        {
+          "synonyms": [
+            "always be with you"
+          ],
+          "value": "dheeme dheeme"
+        },
+        {
+          "synonyms": [],
+          "value": "shape of you"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "pageName": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "facebook.com",
+            "www.facebook.com",
+            "facebook webpage"
+          ],
+          "value": "facebook"
+        },
+        {
+          "synonyms": [
+            "twiiter.com",
+            "www.twitter.com"
+          ],
+          "value": "twitter"
+        },
+        {
+          "synonyms": [
+            "wikipedia.com",
+            "www.wikipedia.com"
+          ],
+          "value": "wikipedia"
+        },
+        {
+          "synonyms": [
+            "google.com",
+            "www.google.com"
+          ],
+          "value": "google"
+        },
+        {
+          "synonyms": [
+            "lpu.co.in",
+            "lpu.co",
+            "lpu"
+          ],
+          "value": "lpu webpage"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "queryName": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "apple"
+        },
+        {
+          "synonyms": [],
+          "value": "big bang theory"
+        },
+        {
+          "synonyms": [],
+          "value": "Isaac Newton"
+        },
+        {
+          "synonyms": [],
+          "value": "bill gates"
+        },
+        {
+          "synonyms": [],
+          "value": "banana"
+        },
+        {
+          "synonyms": [],
+          "value": "australia"
+        },
+        {
+          "synonyms": [],
+          "value": "pigeon"
+        },
+        {
+          "synonyms": [],
+          "value": "lion"
+        },
+        {
+          "synonyms": [],
+          "value": "homosapiens"
+        },
+        {
+          "synonyms": [],
+          "value": "maths"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "respient": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "john"
+        },
+        {
+          "synonyms": [],
+          "value": "oliver"
+        },
+        {
+          "synonyms": [],
+          "value": "deon"
+        },
+        {
+          "synonyms": [],
+          "value": "leon"
+        },
+        {
+          "synonyms": [],
+          "value": "jibin"
+        },
+        {
+          "synonyms": [],
+          "value": "dave"
+        },
+        {
+          "synonyms": [],
+          "value": "rakesh"
+        },
+        {
+          "synonyms": [],
+          "value": "ram"
+        },
+        {
+          "synonyms": [],
+          "value": "sam"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "snips/Date": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "snips/datetime": {},
+    "snips/musicAlbum": {},
+    "snips/musicArtist": {},
+    "snips/time": {},
+    "snips/timePeriod": {},
+    "subName": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "i am running late"
+        },
+        {
+          "synonyms": [],
+          "value": "i am busy"
+        },
+        {
+          "synonyms": [],
+          "value": "the meeting is resceduled"
+        },
+        {
+          "synonyms": [],
+          "value": "the meeting is cancelled"
+        },
+        {
+          "synonyms": [],
+          "value": "i am busy right now"
+        },
+        {
+          "synonyms": [],
+          "value": "come to party on 9"
+        },
+        {
+          "synonyms": [],
+          "value": "happy birthday"
+        },
+        {
+          "synonyms": [],
+          "value": "sorry i offended you"
+        },
+        {
+          "synonyms": [],
+          "value": "project is due tomorrow"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "temperature": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "sunny"
+        },
+        {
+          "synonyms": [],
+          "value": "stormy"
+        },
+        {
+          "synonyms": [],
+          "value": "rainy"
+        },
+        {
+          "synonyms": [],
+          "value": "snowy"
+        },
+        {
+          "synonyms": [],
+          "value": "chilly"
+        },
+        {
+          "synonyms": [],
+          "value": "windy"
+        },
+        {
+          "synonyms": [],
+          "value": "hot"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "email": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "email "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "john"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "email "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "oliver"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "subName",
+              "slot_name": "sub",
+              "text": "i am running late"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you email "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "deon"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you email "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "leon"
+            },
+            {
+              "text": " that "
+            },
+            {
+              "entity": "subName",
+              "slot_name": "sub",
+              "text": "i am busy"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "send an email to "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "jibin"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "send an email"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "send an email to "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "dave"
+            },
+            {
+              "text": " and tell him that "
+            },
+            {
+              "entity": "subName",
+              "slot_name": "sub",
+              "text": "the meeting is resceduled"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "compile an email to "
+            },
+            {
+              "entity": "respient",
+              "slot_name": "res",
+              "text": "rakesh"
+            }
+          ]
+        }
+      ]
+    },
+    "getGreeting": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "hi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hello"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hi,how are you?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how are you doing?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what's up"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how ya doing?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "howdy"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "namsate"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hey lynda"
+            }
+          ]
+        }
+      ]
+    },
+    "getNews": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what 's the "
+            },
+            {
+              "entity": "Thing",
+              "slot_name": "thing",
+              "text": "news"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can I get the "
+            },
+            {
+              "entity": "Thing",
+              "slot_name": "thing",
+              "text": "headline"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what are the top "
+            },
+            {
+              "entity": "Thing",
+              "slot_name": "thing",
+              "text": "headlines"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "read me the "
+            },
+            {
+              "entity": "Thing",
+              "slot_name": "thing",
+              "text": "story"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you tell me the "
+            },
+            {
+              "entity": "Thing",
+              "slot_name": "thing",
+              "text": "news"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is todays "
+            },
+            {
+              "entity": "Thing",
+              "slot_name": "thing",
+              "text": "headline"
+            },
+            {
+              "text": " story?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is happening around"
+            }
+          ]
+        }
+      ]
+    },
+    "getSearch": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "search "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "apple"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "big bang theory"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "search me "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "Isaac Newton"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me about "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "bill gates"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "search "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "banana"
+            },
+            {
+              "text": " for me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "australia"
+            },
+            {
+              "text": " for me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find something"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "who is "
+            },
+            {
+              "entity": "queryName",
+              "slot_name": "query",
+              "text": "pigeon"
+            }
+          ]
+        }
+      ]
+    },
+    "getTime": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what's the "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "now"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me the "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at noon"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "may i know the "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "time",
+              "text": "in one hour"
+            },
+            {
+              "text": " is it?"
+            }
+          ]
+        }
+      ]
+    },
+    "getWeather": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what's the weather "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "time",
+              "text": "tomorrow at 9pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what's the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "city",
+              "text": "london"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what's the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "city",
+              "text": "new york"
+            },
+            {
+              "text": ","
+            },
+            {
+              "entity": "location",
+              "slot_name": "state",
+              "text": "big apple"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what's is "
+            },
+            {
+              "entity": "snips/Date",
+              "slot_name": "date1",
+              "text": "today's"
+            },
+            {
+              "text": " weather"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how is the weather "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "time",
+              "text": "today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "show me weather"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the temperature in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "city",
+              "text": "paris"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "should i carry an umberalla"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is it "
+            },
+            {
+              "entity": "temperature",
+              "slot_name": "temp_description",
+              "text": "sunny"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "city",
+              "text": "lucknow"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "should i go "
+            },
+            {
+              "entity": "current_location",
+              "slot_name": "geo_poi",
+              "text": "outside"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "city",
+              "text": "city of lights"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "time",
+              "text": "on october 1st at 10am"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "time",
+              "text": "at 8 a.m."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the weather "
+            },
+            {
+              "entity": "snips/timePeriod",
+              "slot_name": "timePeriod",
+              "text": "until dinner"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "time",
+              "text": "4:30 pm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the weather in "
+            },
+            {
+              "entity": "location",
+              "slot_name": "city",
+              "text": "kansas"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "location",
+              "slot_name": "state",
+              "text": "banglore"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "time",
+              "text": "in 1 hour"
+            }
+          ]
+        }
+      ]
+    },
+    "helpme": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "help me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you help me,lynda"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what can you do?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what can you do ,lynda?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "help me ,please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "guide me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me what can you do?"
+            }
+          ]
+        }
+      ]
+    },
+    "launchApp": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "launch "
+            },
+            {
+              "entity": "appName",
+              "slot_name": "app",
+              "text": "notepad"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "open "
+            },
+            {
+              "entity": "appName",
+              "slot_name": "app",
+              "text": "mozilla"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "launch the application "
+            },
+            {
+              "entity": "appName",
+              "slot_name": "app",
+              "text": "opera"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "launch "
+            },
+            {
+              "entity": "appName",
+              "slot_name": "app",
+              "text": "chrome"
+            },
+            {
+              "text": " for me ,will you"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lynda,please lauch "
+            },
+            {
+              "entity": "appName",
+              "slot_name": "app",
+              "text": "browser"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lynda,launch "
+            },
+            {
+              "entity": "appName",
+              "slot_name": "app",
+              "text": "wordpad"
+            }
+          ]
+        }
+      ]
+    },
+    "openWeb": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "open "
+            },
+            {
+              "entity": "pageName",
+              "slot_name": "name",
+              "text": "facebook"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you open "
+            },
+            {
+              "entity": "pageName",
+              "slot_name": "name",
+              "text": "facebook.com"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "open "
+            },
+            {
+              "entity": "pageName",
+              "slot_name": "name",
+              "text": "www.facebook.com"
+            },
+            {
+              "text": " for me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is "
+            },
+            {
+              "entity": "pageName",
+              "slot_name": "name",
+              "text": "facebook webpage"
+            },
+            {
+              "text": " up if yes then open it"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "go to "
+            },
+            {
+              "entity": "pageName",
+              "slot_name": "name",
+              "text": "twitter"
+            },
+            {
+              "text": " webpage"
+            }
+          ]
+        }
+      ]
+    },
+    "playMusic": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "play "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "maketh"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "play "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "dhemee dheeme"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "halo"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "play "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "odani"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/musicAlbum",
+              "slot_name": "album",
+              "text": "Discovery"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am bored,play me "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "lamba lamba chul"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "sing "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "kar gyi chul"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "sing "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "maketh"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/musicAlbum",
+              "slot_name": "album",
+              "text": "Discovery"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "play the music "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "dheeme dheeme"
+            },
+            {
+              "text": " by "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Daft Punk"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "let's hear something ,play "
+            },
+            {
+              "entity": "musicTrack",
+              "slot_name": "name",
+              "text": "always be with you"
+            },
+            {
+              "text": " for me\""
+            }
+          ]
+        }
+      ]
+    },
+    "shutdown": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "bye-bye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "shutdown"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stop"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stop lynda"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "shutdown,lynda"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "bye-bye,lynda"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

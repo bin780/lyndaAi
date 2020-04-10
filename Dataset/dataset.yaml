@@ -1,0 +1,368 @@
+# getWeather Intent
+---
+type: intent
+name: getWeather
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: city
+    entity: location
+  - name: state
+    entity: location
+  - name: time
+    entity: snips/datetime
+  - name: country
+    entity: location
+  - name: temp_description
+    entity: temperature
+  - name: geo_poi
+    entity: current_location
+  - name: timePeriod
+    entity: snips/timePeriod
+  - name: date1
+    entity: snips/Date
+
+utterances:
+  - what's the weather [time]
+  - what's the weather in [city]
+  - what's the weather in [city],[state]
+  - what's is [date1](today's) weather
+  - how is the weather [time]
+  - show me weather
+  - what is the temperature in [city]
+  - should i carry an umberalla
+  - is it [temp_description] in [city](lucknow)
+  - should i go [geo_poi]
+  - what is the weather in [city] [time] from [time]
+  - what is the weather [timePeriod] from [time]
+  - what is the weather in [city] [state] at [time]
+
+
+# location Entity
+---
+type: entity
+name: location
+values:
+  - london
+  - [new york, big apple]
+  - [paris, city of lights]
+  - kansas
+  - banglore
+  - India
+  - [USA,America]
+
+
+# temperature  Entity
+---
+type: entity
+name: temperature
+values:
+  - sunny
+  - stormy
+  - rainy
+  - snowy
+  - chilly
+  - windy
+  - hot
+
+#  current_location
+---
+type: entity
+name: current_location
+values:
+  - outside
+  - here
+  - there
+  - nearby
+  - inside
+  - my house
+
+
+# play Music Intent
+---
+type: intent
+name: playMusic
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: name
+    entity: musicTrack
+  - name: artist
+    entity: snips/musicArtist
+  - name: album
+    entity: snips/musicAlbum
+
+utterances:
+  - play [name](maketh)
+  - play [name](dhemee dheeme) by [artist](halo)
+  - play [name] in [album]
+  - I am bored,play me [name]
+  - sing [name]
+  - sing [name] by [album]
+  - play the music [name] by [artist]
+  - let's hear something ,play [name] for me"
+# music Artist entity
+---
+type: entity
+name: musicTrack
+values:
+  - odani
+  - lamba lamba chul
+  - kar gyi chul
+  - maketh
+  - [dheeme dheeme ,always be with you]
+  - shape of you
+
+# time intent
+---
+type: intent
+name: getTime
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: time
+    entity: snips/time
+
+utterances:
+  - what's the [time]?
+  - tell me the [time]
+  - may i know the [time]
+  - what is the [time]
+  - what [time] is it?'
+  - what is the current
+
+
+# news intent
+---
+type: intent
+name: getNews
+automatically_extensible: yes
+use_synonyms: yes
+
+slots:
+  - name: thing
+    entity: Thing
+
+utterances:
+  - what 's the [thing]?
+  - can I get the [thing]?
+  - what are the top [thing]?
+  - read me the [thing]?
+  - can you tell me the [thing]?
+  - what is todays [thing] story?
+  - what is happening around
+
+#thing entiti
+---
+type: entity
+name: Thing
+
+values:
+  - news
+  - [headline,headlines]
+  - story
+
+
+
+#webpage intent
+---
+type: intent
+name: openWeb
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: name
+    entity: pageName
+
+utterances:
+  - open [name]
+  - can you open [name]
+  - open [name] for me
+  - is [name] up if yes then open it
+  - go to [name] webpage
+
+#name entity
+---
+type: entity
+name: pageName
+values:
+  - [facebook,facebook.com,www.facebook.com,facebook webpage]
+  - [twitter,twiiter.com,www.twitter.com ]
+  - [wikipedia,wikipedia.com,www.wikipedia.com]
+  - [google,google.com,www.google.com]
+  - [lpu webpage,lpu.co.in,lpu.co,lpu]
+
+#search intent
+---
+type: intent
+name: getSearch
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: query
+    entity: queryName
+utterances:
+  - search [query]
+  - what is [query]
+  - search me [query]
+  - tell me about [query]
+  - search [query] for me
+  - find [query] for me
+  - find something
+  - who is [query]
+
+#query entity
+---
+type: entity
+name: queryName
+values:
+  - apple
+  - big bang theory
+  - Isaac Newton
+  - bill gates
+  - banana
+  - australia
+  - pigeon
+  - lion
+  - homosapiens
+  - maths
+
+
+#greeting intent
+---
+type: intent
+name: getGreeting
+automatically_extensible: yes
+use_synonyms: yes
+utterances:
+  - hi
+  - hello
+  - hi,how are you?
+  - how are you doing?
+  - hey
+  - what's up
+  - how ya doing?
+  - howdy
+  - namsate
+  - hey lynda
+
+#ending intent
+---
+type: intent
+name: shutdown
+automatically_extensible: yes
+use_synonyms: yes
+utterances:
+  - bye-bye
+  - shutdown
+  - stop
+  - stop lynda
+  - shutdown,lynda
+  - bye-bye,lynda
+  - shutdown please
+  - ok you can shutdown now
+
+
+#help intent
+---
+type: intent
+name: helpme
+automatically_extensible: yes
+use_synonyms: yes
+utterances:
+  - help me
+  - can you help me,lynda
+  - what can you do?
+  - what can you do ,lynda?
+  - help me ,please
+  - guide me
+  - tell me what can you do?
+
+#launch application
+
+---
+type: intent
+name: launchApp
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: app
+    entity: appName
+
+utterances:
+  - launch [app]
+  - open [app]
+  - launch the application [app]
+  - launch [app] for me ,will you
+  - lynda,please lauch [app]
+  - lynda,launch [app]
+
+#app entity
+---
+type: entity
+name: appName
+values:
+  - notepad
+  - mozilla
+  - opera
+  - chrome
+  - browser
+  - wordpad
+  - spotify
+
+
+#email intent
+
+---
+type: intent
+name: email
+automatically_extensible: yes
+use_synonyms: yes
+slots:
+  - name: res
+    entity: respient
+  - name : sub
+    entity: subName
+
+utterances:
+  - email [res]
+  - email [res] [sub]
+  - can you email [res]
+  - can you email [res] that [sub]
+  - send an email to [res]
+  - send an email
+  - send an email to [res] and tell him that [sub]
+  - compile an email to [res]
+
+
+# res entity
+---
+type: entity
+name: respient
+values:
+  - john
+  - oliver
+  - deon
+  - leon
+  - jibin
+  - dave
+  - rakesh
+  - ram
+  - sam
+
+#sub entity
+---
+type: entity
+name: subName
+values:
+  - i am running late
+  - i am busy
+  - the meeting is resceduled
+  - the meeting is cancelled
+  - i am busy right now
+  - come to party on 9
+  - happy birthday
+  - sorry i offended you
+  - project is due tomorrow
+
+

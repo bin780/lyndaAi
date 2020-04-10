@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d25a540-b415-4134-aaa8-47e234bf8e0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.google-cookie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Metron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Visualisation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/dataset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/dataset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/metrics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/sample_dataset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visualisation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.google-cookie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/genda phool.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_1/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_1/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_2/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_2/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_1/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_1/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_10/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_10/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_11/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_11/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_2/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_2/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_3/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_3/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_4/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_4/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_5/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_5/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_6/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_6/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_7/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_7/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_8/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_8/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_9/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_9/parser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/lookup_intent_parser/intent_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/lookup_intent_parser/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/nlu_engine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/featurizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/tfidf_vectorizer/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/tfidf_vectorizer/vectorizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/intent_classifier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_1/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_1/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_10/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_10/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_6/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_6/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/model.crfsuite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/slot_filler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/resources/en/gazetteers/top_10000_words_stemmed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/resources/en/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/resources/en/noise.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/resources/en/stemming/stems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/resources/en/stop_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/resources/en/word_clusters/brown_clusters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.ui" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Metron.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+              <folding>
+                <element signature="e#804#835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.ui">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset/sample_dataset.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset/metrics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14042">
+              <caret line="826" column="8" selection-start-line="826" selection-start-column="8" selection-end-line="826" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset/dataset.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timeRange</find>
+      <find>getSe</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>snips/datetime</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Dataset/sample_dataset.json" />
+        <option value="$PROJECT_DIR$/Dataset/dataset.json" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Train.py" />
+        <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/end.html" />
+        <option value="$PROJECT_DIR$/Dataset/dataset.yaml" />
+        <option value="$PROJECT_DIR$/Metron.py" />
+        <option value="$PROJECT_DIR$/GUI.py" />
+        <option value="$PROJECT_DIR$/test.ui" />
+        <option value="$PROJECT_DIR$/server.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.server">
+    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\HP\Desktop\Metron\Train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Metron" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Metron.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.GUI" />
+        <item itemvalue="Python.Metron" />
+        <item itemvalue="Python.Train" />
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d25a540-b415-4134-aaa8-47e234bf8e0b" name="Default Changelist" comment="" />
+      <created>1585932645828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585932645828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49789914" weight="0.75743556" />
+      <window_info id="Structure" order="1" sideWeight="0.5021008" side_tool="true" weight="0.37276933" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dataset/dataset.yml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/encodings/cp1252.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/dataset.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.html" />
+    <entry file="file://$PROJECT_DIR$/templates/end.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py" />
+    <entry file="file://$PROJECT_DIR$/Metron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+          <folding>
+            <element signature="e#804#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/sample_dataset.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14042">
+          <caret line="826" column="8" selection-start-line="826" selection-start-column="8" selection-end-line="826" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/dataset.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
