@@ -2,107 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d25a540-b415-4134-aaa8-47e234bf8e0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.google-cookie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Metron.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Visualisation-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/dataset.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/dataset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/metrics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/sample_dataset.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Metron.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Visualisation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/.google-cookie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/genda phool.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_1/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_1/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_2/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_2/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/builtin_entity_parser/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_1/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_1/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_10/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_10/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_11/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_11/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_2/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_2/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_3/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_3/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_4/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_4/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_5/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_5/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_6/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_6/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_7/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_7/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_8/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_8/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_9/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_9/parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/lookup_intent_parser/intent_parser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/lookup_intent_parser/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/nlu_engine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/tfidf_vectorizer/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/tfidf_vectorizer/vectorizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/intent_classifier.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_parser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_1/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_1/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_10/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_10/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_6/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_6/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/model.crfsuite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/slot_filler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/resources/en/gazetteers/top_10000_words_stemmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/resources/en/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/resources/en/noise.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/resources/en/stemming/stems.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/resources/en/stop_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/resources/en/word_clusters/brown_clusters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/end.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.google-cookie" beforeDir="false" afterPath="$PROJECT_DIR$/.google-cookie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/dataset.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Metron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lynda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/.google-cookie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/genda phool.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_1/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_1/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_2/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/builtin_entity_parser/gazetteer_entity_parser/parser_2/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/builtin_entity_parser/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_1/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_1/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_10/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_10/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_11/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_11/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_2/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_2/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_3/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_3/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_4/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_4/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_5/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_5/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_6/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_6/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_7/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_7/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_8/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_8/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_9/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/custom_entity_parser/parser/parser_9/parser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/lookup_intent_parser/intent_parser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/lookup_intent_parser/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/nlu_engine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/tfidf_vectorizer/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/featurizer/tfidf_vectorizer/vectorizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/intent_classifier.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_classifier/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/intent_parser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_0/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_1/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_1/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_10/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_10/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_2/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_3/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_4/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_5/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_6/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_6/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_7/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_8/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/model.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/probabilistic_intent_parser/slot_filler_9/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resources/en/gazetteers/top_10000_words_stemmed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resources/en/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resources/en/noise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resources/en/stemming/stems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resources/en/stop_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resources/en/word_clusters/brown_clusters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/media/reactor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/end.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ui" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,56 +102,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Metron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-              <folding>
-                <element signature="e#804#835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="224">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.ui">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -175,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="377">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -190,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dataset/metrics.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14042">
+            <state relative-caret-position="394">
               <caret line="826" column="8" selection-start-line="826" selection-start-column="8" selection-end-line="826" selection-end-column="8" />
             </state>
           </provider>
@@ -199,8 +147,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dataset/dataset.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="955">
+              <caret line="354" column="12" selection-start-line="354" selection-start-column="12" selection-end-line="354" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lynda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1085">
+              <caret line="311" selection-start-line="311" selection-end-line="311" />
+              <folding>
+                <element signature="e#803#841#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,15 +193,19 @@
         <option value="$PROJECT_DIR$/Dataset/sample_dataset.json" />
         <option value="$PROJECT_DIR$/Dataset/dataset.json" />
         <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Train.py" />
         <option value="$PROJECT_DIR$/template/index.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/end.html" />
         <option value="$PROJECT_DIR$/Dataset/dataset.yaml" />
-        <option value="$PROJECT_DIR$/Metron.py" />
         <option value="$PROJECT_DIR$/GUI.py" />
         <option value="$PROJECT_DIR$/test.ui" />
+        <option value="$PROJECT_DIR$/Metron.py" />
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/summary/__init__.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Lynda.py" />
+        <option value="$PROJECT_DIR$/Train.py" />
       </list>
     </option>
   </component>
@@ -255,11 +219,35 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lynda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lynda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lynda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lynda" type="462c0819:PsiDirectoryNode" />
+              <item name="Dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Lynda\media" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.Train">
     <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Metron" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,48 +275,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Metron" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\HP\Desktop\Metron\Train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Metron" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Metron" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Metron.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,13 +325,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.GUI" />
-        <item itemvalue="Python.Metron" />
         <item itemvalue="Python.Train" />
-        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.GUI" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -404,6 +392,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49789914" weight="0.75743556" />
       <window_info id="Structure" order="1" sideWeight="0.5021008" side_tool="true" weight="0.37276933" />
@@ -456,30 +445,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client.py" />
-    <entry file="file://$PROJECT_DIR$/Metron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-          <folding>
-            <element signature="e#804#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.ui">
+    <entry file="file://$PROJECT_DIR$/Dataset/sample_dataset.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="95" column="45" lean-forward="true" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -490,41 +466,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset/sample_dataset.json">
+    <entry file="file://$PROJECT_DIR$/test.ui">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Train.py">
+    <entry file="file://$PROJECT_DIR$/Visualisation.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/summary/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#368#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#195#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/reactor.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14042">
+        <state relative-caret-position="394">
           <caret line="826" column="8" selection-start-line="826" selection-start-column="8" selection-end-line="826" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lynda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1085">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+          <folding>
+            <element signature="e#803#841#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset/dataset.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="955">
+          <caret line="354" column="12" selection-start-line="354" selection-start-column="12" selection-end-line="354" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
+    <entry file="file://$PROJECT_DIR$/Train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="377">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

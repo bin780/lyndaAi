@@ -845,7 +845,14 @@
               "text": "in one hour"
             },
             {
-              "text": " is it?"
+              "text": " is it?'"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the current"
             }
           ]
         }
@@ -1441,6 +1448,20 @@
           "data": [
             {
               "text": "bye-bye,lynda"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "shutdown please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "ok you can shutdown now"
             }
           ]
         }

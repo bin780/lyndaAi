@@ -20,7 +20,9 @@ Created on Thu Apr  2 11:29:22 2020
         11. top stories from google news (RSS feeds)
         12. tell me about xyz : tells you about xyz\n
 '''
+from PyQt5.QtWebEngineWidgets import *
 
+from PyQt5.QtCore import *
 import speech_recognition as sr
 import os
 import sys
@@ -43,6 +45,8 @@ from time import strftime
 import pyttsx3
 import io
 import Train
+
+
 
 GUI=None
 
@@ -88,7 +92,7 @@ class Lynda():
     def lyndaResponse(self, audio):
         "speaks audio passed as argument"
         eng = pyttsx3.init()
-        print(audio)
+        p=str(audio)
         if self.gui != None:
             self.gui.Message1.configure(text=audio)
 
@@ -130,9 +134,17 @@ class Lynda():
         if domain:
             # domain = reg_ex.group(1)
             print(domain)
-            url = 'https://www.' + domain + '.com'
+            url=""
+            if '.'not  in domain:
+                url = 'https://www.' + domain + '.com'
+            else:
+                url='https://www.'+domain
             webbrowser.open(url)
-            self.lyndaResponse('The website you have requested has been opened for you Sir.')
+            try:
+                self.gui.web.load(QUrl("https://www.google.com"))
+                self.lyndaResponse('The website you have requested has been opened for you Sir.')
+            except Exception as e:
+                print(e)
         else:
             self.lyndaResponse("i didn't find anything")
 
@@ -232,40 +244,44 @@ class Lynda():
             mysong = self.myCommand()
         print(os.listdir(path))
         if mysong + '.mp4' not in os.listdir(path):
+            try:
 
-            query_string = urllib.parse.urlencode({"search_query": mysong})
-            html_content = urllib.request.urlopen("http://www.youtube.com/results?" + query_string)
-            search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
-            print("http://www.youtube.com/watch?v=" + search_results[0])
+                query_string = urllib.parse.urlencode({"search_query": mysong})
+                html_content = urllib.request.urlopen("http://www.youtube.com/results?" + query_string)
+                search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
+                print("http://www.youtube.com/watch?v=" + search_results[0])
 
-            print(search_results)
-            # if url_list!=[]:
-            url = search_results[0]
-            ydl_opts = {}
+                print(search_results)
+                # if url_list!=[]:
+                url = search_results[0]
+                ydl_opts = {}
 
-            os.chdir(path + "/")
-            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                ydl.download([url])
-            result = ydl.extract_info(url, download=False)
-            outfile = ydl.prepare_filename(result).split('.')[0]
-            print("we are at", os.curdir)
-            print(outfile)
-            # os.chdir('./media/')
-            print(os.curdir)
+                os.chdir(path + "/")
+                with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                    ydl.download([url])
+                result = ydl.extract_info(url, download=False)
+                outfile = ydl.prepare_filename(result).split('.')[0]
+                print("we are at", os.curdir)
+                print(outfile)
+                # os.chdir('./media/')
+                print(os.curdir)
 
-            os.rename(outfile + '.mp4', mysong + '.mp4')
-            mysong = mysong + ".mp4"
+                os.rename(outfile + '.mp4', mysong + '.mp4')
+                mysong = mysong + ".mp4"
 
-            import time
-            vlc_instance = vlc.Instance()
-            player = vlc_instance.media_player_new()
-            media = vlc_instance.media_new(mysong)
-            player.set_media(media)
-            player.play()
-            next=mycommand()
-            if "stop" in next.split():
+                import time
+                vlc_instance = vlc.Instance()
+                player = vlc_instance.media_player_new()
+                media = vlc_instance.media_new(mysong)
+                player.set_media(media)
+                player.play()
+                next=self.myCommand()
+                if "stop" in next.split():
+                    player.stop()
                 player.stop()
-            player.stop()
+            except Exception as e:
+                print(e)
+                self.lyndaResponse("something happended ...plaease bear with me")
 
 
 
@@ -276,8 +292,8 @@ class Lynda():
         try:
             if query:
                 topic = query
-                ny = wikipedia.page(topic)
-                self.lyndaResponse(ny.summary().encode('utf-8'))
+                ny = wikipedia.search(topic)
+                self.lyndaResponse(wikipedia.summary(ny[0]).encode('utf-8'))
         except Exception as e:
             from googlesearch import search
             self.lyndaResponse("here are the top result")
@@ -292,24 +308,36 @@ class Lynda():
 
     def helpMe(self,command):
         self.lyndaResponse("""
-           You can use these commands and I'll help you out:
+           Currently I can do :
 
-           1. Open reddit subreddit : Opens the subreddit in default browser.
-           2. Open xyz.com : greplace xyz with any website name
-           3. Send email/email : Follow up questions such as recipient name, content will be asked in order.
-           4. Tell a joke/another joke : Says a random dad joke.
-           5. Current weather in {cityname} : Tells you the current condition and temperture
-           7. Greetings
-           8. play me a video : Plays song in your VLC media player
-           9. change wallpaper : Change desktop wallpaper
-           10. news for today : reads top news of today
-           11. time : Current system time
-           12. top stories from google news (RSS feeds)
-           13. tell me about xyz : tells you about xyz""")
+           
+           1. Open any website
+           2. Send email/email : Follow up questions such as recipient name, content will be asked in order.
+           3. Current weather in any city.
+           4. Greetings
+           5. play any music video
+           6. read the news for today
+           7. read the current time
+           8 launch a local program
+           9. ask about any topic """)
 
     def shutdown(self,command):
         self.lyndaResponse('Bye bye Sir. Have a nice day')
         sys.exit()
+
+
+    def last(self,query):
+        self.lyndaResponse("i can't find what are you looking ...")
+        self.lyndaResponse("let me search the web")
+        webbrowser.open("https://www.google.com/search?=")
+
+
+
+
+
+
+
+
 
     def callApi(self,intent, entities):
 
@@ -335,6 +363,8 @@ class Lynda():
             self.launch(entities)
         elif intent == 'email':
             self.email(entities)
+        elif intent =='null':
+            self.last(entities)
 
 
 

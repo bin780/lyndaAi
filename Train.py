@@ -17,11 +17,9 @@ def init(seed):
 
     print("momdel created")
 
-    import os
 
-    #os.chmod('C:\\Users\\HP\\Desktop\\Metron\\model',0o777)
 
-    #os.remove('C:\\Users\\HP\\Desktop\\Metron\\model')
+
 
     nlu_engine.persist('model')
 
