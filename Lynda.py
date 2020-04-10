@@ -20,9 +20,7 @@ Created on Thu Apr  2 11:29:22 2020
         11. top stories from google news (RSS feeds)
         12. tell me about xyz : tells you about xyz\n
 '''
-from PyQt5.QtWebEngineWidgets import *
 
-from PyQt5.QtCore import *
 import speech_recognition as sr
 import os
 import sys
