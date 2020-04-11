@@ -6,23 +6,10 @@ Created on Thu Apr  2 11:29:22 2020
 """
 
 
-#Building a voice assistant
-'''      I can do:
-        1. Open reddit subreddit : Opens the subreddit in default browser.
-        2. Open xyz.com : replace xyz with any website name
-        3. Send email/email : Follow up questions such as recipient name, content will be asked in order.
-        4. Current weather in {cityname} : Tells you the current condition and temperture
-        6. Hello
-        7. play me a video : Plays song in your VLC media player
-        8. change wallpaper : Change desktop wallpaper
-        9. news for today : reads top news of today
-        10. time : Current system time
-        11. top stories from google news (RSS feeds)
-        12. tell me about xyz : tells you about xyz\n
-'''
-from PyQt5.QtWebEngineWidgets import *
 
-from PyQt5.QtCore import *
+
+
+
 import speech_recognition as sr
 import os
 import sys
@@ -54,18 +41,18 @@ def getValue(entities,key):
     if key in entities:
         return entities[key]
     else:
-        return ""
+        return ""                                                          # function to extract value from the returned entity
 
 def extractEntity(parsing):
     d={}
-    for i in parsing:
+    for i in parsing:                                                       #function to extrat entity from the value returned
         d[i["slotName"]]=i["value"]["value"]
     return d
 
-class Lynda():
+class Lynda():                                                             #Lynda Ai class which contains various apis and call function
     def __init__(self,gui=None):
         self.gui=gui
-        self.model=Train.load_model()
+        self.model=Train.load_model()                                        #constructor loading the model
         self.lyndaResponse(
             'Hi User, I am Lynda and I am your personal voice assistant, Please give a command or say "help me" and I will tell you what all I can do for you.')
 
@@ -73,7 +60,7 @@ class Lynda():
         "listens for commands"
         # print("here")
         r = sr.Recognizer()
-        with sr.Microphone() as source:
+        with sr.Microphone() as source:                                   #function to listen to the user voice and get commmand
             print('Say something...')
             r.pause_threshold = 0.7
             r.adjust_for_ambient_noise(source, duration=0.7)
@@ -90,7 +77,7 @@ class Lynda():
         return command
 
     def lyndaResponse(self, audio):
-        "speaks audio passed as argument"
+        "speaks audio passed as argument"                                #function to give the voiced response
         eng = pyttsx3.init()
         p=str(audio)
         if self.gui != None:
@@ -106,7 +93,7 @@ class Lynda():
         "if statements for executing commands"
 
         # open subreddit Reddit
-
+                                                                                                #function to get the classified intent and getting theier entitires/slot va;ues
         if command==None:
             command=self.myCommand()
 
@@ -354,7 +341,7 @@ class Lynda():
         elif intent == "getSearch":
             self.getSearch(entities)
         elif intent == "getGreeting":
-            self.greeting(entities)
+            self.greeting(entities)                                                           # function to call API's according to intent and passing the entities to them
         elif intent == "shutdown":
             self.shutdown(entities)
         elif intent == "helpme":
@@ -363,7 +350,7 @@ class Lynda():
             self.launch(entities)
         elif intent == 'email':
             self.email(entities)
-        elif intent =='null':
+        else:
             self.last(entities)
 
 

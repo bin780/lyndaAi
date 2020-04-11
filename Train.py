@@ -10,7 +10,7 @@ def init(seed):
 
     from snips_nlu.default_configs import CONFIG_EN
 
-    nlu_engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
+    nlu_engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)                                                  #training the nlu model
 
 
     nlu_engine.fit(sample_dataset)
@@ -21,7 +21,7 @@ def init(seed):
 
 
 
-    nlu_engine.persist('model')
+    nlu_engine.persist('model')                                                                                        # saving the trained model
 
     print("model dumped")
 
@@ -29,7 +29,7 @@ def init(seed):
 
 def load_model():
     from snips_nlu import SnipsNLUEngine as se
-    model=se.from_path('model')
+    model=se.from_path('model')                                                                                    #function to load the trained modeulw
     return model
 
 

@@ -261,6 +261,10 @@ utterances:
   - bye-bye,lynda
   - shutdown please
   - ok you can shutdown now
+  - shut down please
+  - lynda,shut down
+  - lynda stop yourself
+  - linda stop
 
 
 #help intent

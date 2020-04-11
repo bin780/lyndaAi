@@ -3,26 +3,6 @@ import Lynda as m
 import Train as t
 
 
-def callback(recognizer, audio):                          # this is called from the background thread
-    try:
-        #global model
-        audio=recognizer.recognize_google(audio).lower()
-        print(audio)# received audio data, now need to recognize it
-        l.assistant(audio)
-        gui.Message1.configure(text="say something.....")
-    except sr.UnknownValueError:
-        print("Oops! Didn't catch that")
-
-def fun(self):
-    global gui,l
-    gui=self
-    l=m.Lynda(gui)
-    r = sr.Recognizer()
-    print("listening now")
-    r.listen_in_background(sr.Microphone(), callback)
-
-
-import sys
 
 try:
     from Tkinter import *
@@ -38,12 +18,42 @@ except ImportError:
 
     py3 = True
 
+def callback(recognizer, audio):                                          # this is called from the background thread
+    try:
+        #global model
+        audio=recognizer.recognize_google(audio).lower()
+        print(audio)# received audio data, now need to recognize it
+        l.assistant(audio)
+        gui.Message1.configure(text="say something.....")
+    except sr.UnknownValueError:
+        print("Oops! Didn't catch that")
+    except sr.RequestError as r:
+        print(r)
+        l.lyndaResponse("please make sure you have a working internet connection for me to work")
+
+def fun(self):
+    self.Button1.config(state=DISABLED)
+    try:
+        global gui,l
+        gui=self
+        l=m.Lynda(gui)
+        r = sr.Recognizer()                                         # callback function when the button is pushed
+        print("listening now")
+        r.listen_in_background(sr.Microphone(), callback)
+    except:
+        self.Message1.configure(text="plaease make sure there is internet connection")
+
+
+import sys
+
+
+
 
 def vp_start_gui():
     '''Starting point when module is the main routine.'''
     global val, w, root
     root = Tk()
-    top = lynda(root)
+    top = lynda(root)                                                                 # function to launch gui
 
     root.mainloop()
 
@@ -51,14 +61,7 @@ def vp_start_gui():
 w = None
 
 
-def create_lynda(root, *args, **kwargs):
-    '''Starting point when module is imported by another program.'''
-    global w, w_win, rt
-    rt = root
-    w = Toplevel(root)
-    top = lynda(w)
 
-    return (w, top)
 
 
 def destroy_lynda():
@@ -73,7 +76,7 @@ class lynda:
            top is the toplevel containing window.'''
         _bgcolor = '#d9d9d9'  # X11 color: 'gray85'
         _fgcolor = '#000000'  # X11 color: 'black'
-        _compcolor = '#d9d9d9'  # X11 color: 'gray85'
+        _compcolor = '#d9d9d9'  # X11 color: 'gray85'                                                       # tkinter gui class
         _ana1color = '#d9d9d9'  # X11 color: 'gray85'
         _ana2color = '#d9d9d9'  # X11 color: 'gray85'
 
@@ -97,7 +100,7 @@ class lynda:
         self.Message1.configure(foreground="#000000")
         self.Message1.configure(highlightbackground="#d9d9d9")
         self.Message1.configure(highlightcolor="black")
-        self.Message1.configure(text='''Message''')
+        self.Message1.configure(text='''Lynda''')
         self.Message1.configure(width=356)
 
         self.Button1 = Button(top)
@@ -114,7 +117,7 @@ class lynda:
         self.Button1.configure(command=lambda :fun(self))
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':                              #launching the gui
     vp_start_gui()
 
 
