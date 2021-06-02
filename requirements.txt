@@ -9,6 +9,6 @@ requests==2.21.0
 snips==1.0.0
 snips-nlu-metrics==0.14.6
 SpeechRecognition==3.8.1
-urllib3==1.24.1
+urllib3==1.26.5
 wikipedia==1.4.0
 youtube-dl==2020.3.24
